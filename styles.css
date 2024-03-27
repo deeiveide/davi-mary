@@ -4,7 +4,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #ffe6e6; /* Cor de fundo alterada para um tom de rosa claro */
+    background-color: #ffdede; /* Cor de fundo alterada para um tom de rosa claro */
   }
   
   .container {
@@ -51,4 +51,15 @@ body {
       transform: scale(1.2);
     }
   }
+  .image-container {
+    margin-top: 20px;
+    margin-bottom: 20px; /* Adicionado espaço abaixo da imagem */
+  }
   
+  .image-container img {
+    border-radius: 20px;
+    max-width: 100%; /* Define a largura máxima da imagem como 100% do contêiner */
+    height: auto; /* Garante que a altura seja ajustada automaticamente para manter a proporção da imagem */
+  }
+  
+    
