@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ffe6e6; /* Cor de fundo alterada para um tom de rosa claro */
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .heart-container {
+    position: relative;
+  }
+  
+  .heart-icon {
+    font-size: 72px;
+    color: #ff3333; /* Cor do coração */
+    animation: pulse 1s infinite alternate;
+  }
+  
+  h1 {
+    font-size: 24px; /* Tamanho da fonte do texto aumentado */
+    color: #333; /* Cor do texto alterada */
+  }
+  
+  .spotify-player {
+    margin-top: 20px;
+  }
+  
+  /* Estilos responsivos */
+  @media (max-width: 768px) {
+    .heart-icon {
+      font-size: 48px;
+    }
+  
+    h1 {
+      font-size: 20px;
+    }
+  }
+  
+  /* Animação de pulso */
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(1.2);
+    }
+  }
+  
